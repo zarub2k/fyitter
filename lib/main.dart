@@ -8,6 +8,12 @@ void main() => runApp(
             title: Text('I Am Rich'),
             backgroundColor: Colors.blueGrey[900],
           ),
+          body: Center(
+            child: Image(
+              image: NetworkImage(
+                  'https://i.ytimg.com/vi/Z2SNeH9v-Ug/maxresdefault.jpg'),
+            ),
+          ),
         ),
       ),
     );
