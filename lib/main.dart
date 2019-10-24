@@ -10,8 +10,7 @@ void main() => runApp(
           ),
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  'https://i.ytimg.com/vi/Z2SNeH9v-Ug/maxresdefault.jpg'),
+              image: AssetImage('images/diamond.png'),
             ),
           ),
         ),
