@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class MiCard extends StatelessWidget {
+class MiCardApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return _build(context);
