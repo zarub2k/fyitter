@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:fyitter/i_am_rich/iamrich.dart';
+import 'package:fyitter/mi_card/micard.dart';
 
 void main() => runApp(
       MaterialApp(
-        home: IAmRichApp(),
+        home: MiCard(),
       ),
     );
