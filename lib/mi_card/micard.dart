@@ -11,6 +11,7 @@ class MiCardApp extends StatelessWidget {
       backgroundColor: Colors.teal,
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             _container('Container 1', Colors.blue),
             _container('Container 2', Colors.amberAccent),
@@ -23,7 +24,7 @@ class MiCardApp extends StatelessWidget {
 
   Container _container(String _name, Color _color) {
     return Container(
-      width: double.infinity,
+      width: 100.0,
       height: 100.0,
       color: _color,
       child: Text(_name),
