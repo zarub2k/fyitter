@@ -13,7 +13,8 @@ class MiCardApp extends StatelessWidget {
         child: Column(
           children: <Widget>[
             _container('Container 1', Colors.blue),
-            _container('Container 2', Colors.amberAccent)
+            _container('Container 2', Colors.amberAccent),
+            _container('Container 3', Colors.red)
           ],
         ),
       ),
@@ -22,7 +23,7 @@ class MiCardApp extends StatelessWidget {
 
   Container _container(String _name, Color _color) {
     return Container(
-      width: 100.0,
+      width: double.infinity,
       height: 100.0,
       color: _color,
       child: Text(_name),
