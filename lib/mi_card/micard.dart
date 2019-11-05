@@ -9,7 +9,23 @@ class MiCardApp extends StatelessWidget {
   Widget _build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.teal,
-      body: Container(),
+      body: SafeArea(
+        child: Column(
+          children: <Widget>[
+            _container('Container 1', Colors.blue),
+            _container('Container 2', Colors.amberAccent)
+          ],
+        ),
+      ),
+    );
+  }
+
+  Container _container(String _name, Color _color) {
+    return Container(
+      width: 100.0,
+      height: 100.0,
+      color: _color,
+      child: Text(_name),
     );
   }
 }
