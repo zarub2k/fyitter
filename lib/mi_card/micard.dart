@@ -14,11 +14,20 @@ class MiCardApp extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             _container('Container 1', Colors.blue),
+            _sizedBox(10.0, 10.0),
             _container('Container 2', Colors.amberAccent),
+            _sizedBox(10.0, 10.0),
             _container('Container 3', Colors.red)
           ],
         ),
       ),
+    );
+  }
+
+  SizedBox _sizedBox(double _width, double _height) {
+    return SizedBox(
+      width: _width,
+      height: _height,
     );
   }
 
