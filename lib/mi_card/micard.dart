@@ -11,13 +11,14 @@ class MiCardApp extends StatelessWidget {
       backgroundColor: Colors.teal,
       body: SafeArea(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            _container('Container 1', Colors.blue),
-            _sizedBox(10.0, 10.0),
-            _container('Container 2', Colors.amberAccent),
-            _sizedBox(10.0, 10.0),
-            _container('Container 3', Colors.red)
+            CircleAvatar(
+              radius: 50.0,
+              backgroundColor: Colors.white,
+              child: Image(
+                image: AssetImage('images/diamond.png'),
+              ),
+            )
           ],
         ),
       ),
