@@ -16,7 +16,7 @@ class MiCardApp extends StatelessWidget {
               radius: 50.0,
               backgroundColor: Colors.white,
               child: Image(
-                image: AssetImage('images/diamond.png'),
+                image: AssetImage('images/tham.png'),
               ),
             )
           ],
