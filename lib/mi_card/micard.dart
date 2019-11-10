@@ -14,10 +14,7 @@ class MiCardApp extends StatelessWidget {
           children: <Widget>[
             CircleAvatar(
               radius: 50.0,
-              backgroundColor: Colors.white,
-              child: Image(
-                image: AssetImage('images/tham.png'),
-              ),
+              backgroundImage: AssetImage('images/tham.png'),
             )
           ],
         ),
